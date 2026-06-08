@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+}
+.container {
+    max-width: 750px;
+    min-width: 200px;
+    height: 100px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(111, 115, 144);
+    color: rgb(40, 41, 93);
+    padding: 20px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(111, 115, 144);
+    color: rgb(40, 41, 93);
+    padding: 20px;
+
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(111, 115, 144);
+    color: rgb(40, 41, 93);
+    padding: 20px;
+}
+
+.card1 button,
+.card2 button,
+.card3 button {
+    background-color: rgb(67, 227, 184);
+    width: 150px;
+    height: 30px;
+    border: none;
+    color: black;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+        height: 600px;
+        gap: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        
+    }
+
+    .card1 {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(65, 61, 164);
+        color: rgb(18, 19, 85);
+        flex: 1;
+    }
+
+    .card2 {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(65, 61, 164);
+        color: rgb(18, 19, 85);
+        flex: 1;
+    }
+
+    .card3 {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(65, 61, 164);
+        color: rgb(18, 19, 85);
+        flex: 1;
+    }
+
+    .card1 button,
+    .card2 button,
+    .card3 button {
+        background-color: rgb(194, 124, 38);
+        width: 150px;
+        height: 30px;
+        border: none;
+        color: rgb(219, 206, 206);
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 1000px;
+        height: 400px;
+        gap: 30px;
+        margin: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        min-height: 100vh;
+    }
+
+    .card1 {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(33, 27, 199);
+        color: rgb(208, 208, 221);
+        flex: 1;
+    }
+
+    .card2 {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(33, 27, 199);
+        color: rgb(208, 208, 221);
+        flex: 1;
+    }
+
+    .card3 {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(33, 27, 199);
+        color: rgb(208, 208, 221);
+        flex: 1;
+    }
+
+    .card1 button,
+    .card2 button,
+    .card3 button {
+        background-color: rgb(226, 136, 25);
+        width: 150px;
+        height: 30px;
+        border: none;
+        color: rgb(33, 27, 199);
+    }
+}
